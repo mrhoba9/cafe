@@ -129,30 +129,26 @@ function fetchJsonDataForMenu() {
 		.then((data) => {
 			data.forEach((item) => {
 				grid_list.innerHTML += `
-              <li id="${item.id}">
-								<div class="menu-card hover:card">
-									<figure class="card-banner img-holder" style="--width: 100; --height: 100">
-										<img src="${item.image}"width="100"height="100"loading="lazy"alt="${
-					item.name
-				}"class="img-cover"/>
-									</figure>
-									<div>
-										<div class="title-wrapper">
-											<h3 class="title-3">
-												<a href="#" class="card-title">${item.name}</a>
-											</h3>
-											<span class="badge label-1 ${item.special ? "block" : "hidden"}">${
-					item.special
-				}</span>
-											<span class="span title-2">EGP ${item.price}</span>
-										</div>
-										<p class="card-text label-1">
-                    ${item.description}
-										</p>
-									</div>
+					<li id="${item.id}">
+						<div class="menu-card hover:card">
+							<figure class="card-banner img-holder" style="--width: 100; --height: 100">
+								<img src="${item.image}"width="100"height="100"loading="lazy"alt="${item.name}"class="img-cover"/>
+							</figure>
+							<div>
+						<div class="title-wrapper">
+							<h3 class="title-3">
+								<a href="#" class="card-title">${item.name}</a>
+							</h3>
+							<span class="badge label-1 ${item.special ? "block" : "hidden"}">${item.special}</span>
+									<span class="span title-2">EGP ${item.price}</span>
 								</div>
-							</li>
-    `;
+								<p class="card-text label-1">
+									${item.description}
+								</p>
+							</div>
+						</div>
+					</li>
+					`
 			});
 		});
 }
@@ -164,25 +160,25 @@ function fetchJsonDataForEvent() {
 	fetch("./assets/json/event.json")
 		.then((res) => res.json())
 		.then((data) => {
-            console.log(data)
 			data.forEach((item) => {
                 grid_list_event.innerHTML+=`
                     <li>
-                    <div class="event-card has-before hover:shine">
-                        <div class="card-banner img-holder" style="--width: 350; --height: 450">
-                            <img src="${item.image}" width="350" height="450" loading="lazy" alt="${item.description}" class="img-cover"/>
-                            <time class="publish-date label-2" datetime="${item.date}"
-                                >${item.date}</time>
-                    </div>
-                    <div class="card-content">
-                    <p class="card-subtitle label-2 text-center">
+                        <div class="event-card has-before hover:shine">
+                            <div class="card-banner img-holder" style="--width: 350; --height: 450">
+                                <img src="${item.image}" width="350" height="450" loading="lazy" alt="${item.description}" class="img-cover"/>
+                                <time class="publish-date label-2" datetime="${item.date}">
+                                    ${item.date}
+                                </time>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-subtitle label-2 text-center">
                                     ${item.name}
-                    </p>
-                    <h3 class="card-title title-2 text-center">
-                                ${item.description}
-                    </h3>
-                    </div>
-                    </div>
+                                </p>
+                                <h3 class="card-title title-2 text-center">
+                                    ${item.description}
+                                </h3>
+                            </div>
+                        </div>
                     </li>
                 `;
 			});
