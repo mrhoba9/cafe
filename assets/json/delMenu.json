@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Greek Salad",
+        "image": "./assets/webImages/menuHTMLimage/menu-1.png",
+        "description": "A refreshing mix of tomatoes, green bell peppers, cucumbers, onions, olives, and feta cheese, perfect for a light, healthy meal.",
+        "price": "150",
+        "special": "SEASONAL"
+    },
+    {
+        "id": 2,
+        "name": "Oiled Pizza",
+        "image": "./assets/webImages/menuHTMLimage/menu-2.png",
+        "description": "A hearty dish featuring roasted butternut pumpkin, with a rich blend of spices and herbs for a satisfying and savory flavor.",
+        "price": "150",
+        "special": ""
+    },
+    {
+        "id": 3,
+        "name": "Olivas Rellenas",
+        "image": "./assets/webImages/menuHTMLimage/menu-3.png",
+        "description": "A delicious combination of avocados stuffed with crab meat, red onions, and a savory crab salad, all nestled in red and green bell peppers.",
+        "price": "150",
+        "special": ""
+    },
+    {
+        "id": 4,
+        "name": "Lasagne",
+        "image": "./assets/webImages/menuHTMLimage/menu-4.png",
+        "description": "A classic Italian dish made with layers of pasta, cheese, ground meats, and tomato sauce, topped with savory seasonings and spices.",
+        "price": "150",
+        "special": ""
+    },
+    {
+        "id": 5,
+        "name": "Tokusen Wagyu",
+        "image": "./assets/webImages/menuHTMLimage/menu-5.png",
+        "description": "Premium wagyu beef, known for its marbled texture and rich flavor, served with fresh vegetables and aromatic spices for a luxurious dining experience.",
+        "price": "150",
+        "special": ""
+    },
+    {
+        "id": 6,
+        "name": "Greek Salad",
+        "image": "./assets/webImages/menuHTMLimage/menu-6.png",
+        "description": "A fresh, vibrant salad with tomatoes, cucumbers, olives, and feta cheese, drizzled with olive oil and seasoned to perfection.",
+        "price": "150",
+        "special": "NEW"
+    }
+]
