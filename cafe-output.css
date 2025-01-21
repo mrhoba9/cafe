@@ -769,6 +769,10 @@ video {
   height: 1.75rem;
 }
 
+.h-\[120px\] {
+  height: 120px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -815,6 +819,10 @@ video {
 
 .w-96 {
   width: 24rem;
+}
+
+.w-\[120px\] {
+  width: 120px;
 }
 
 .w-full {
@@ -1030,6 +1038,11 @@ video {
 
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-2 {
@@ -2400,13 +2413,13 @@ body.nav-active {
   background-repeat: repeat;
 }
 
-.about .abs-img-2::before {
-  inset: 0;
-  background-image: url("./assets/webImages/badge-2-bg.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  animation: rotate360 15s linear infinite;
-}
+/* .about .abs-img-2::before {
+	inset: 0;
+	background-image: url("./assets/webImages/badge-2-bg.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	animation: rotate360 15s linear infinite;
+} */
 
 /* SPECIAL DISH */
 

@@ -132,7 +132,7 @@ function fetchJsonDataForMenu() {
 					<li id="${item.id}">
 						<div class="menu-card hover:card">
 							<figure class="card-banner img-holder" style="--width: 100; --height: 100">
-								<img src="${item.image}"width="100"height="100"loading="lazy"alt="${item.name}"class="img-cover"/>
+								<img src="${item.image}" class="w-[120px] h-[120px] object-cover" loading="lazy" alt="${item.name}" />
 							</figure>
 							<div>
 						<div class="title-wrapper">

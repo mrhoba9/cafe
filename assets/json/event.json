@@ -2,21 +2,21 @@
     {
         "id": 1,
         "name": "Ramadan",
-        "image": "./assets/webImages/eventsImages/event-1.jpg",
+        "image": "./assets/eleganto images/events/event1.jpg",
         "description": "Celebrate the holy month with special events, spiritual gatherings, and delicious Iftar meals.",
         "date": "1/03/2025"
     },
     {
         "id": 2,
-        "name": "Eid al-Fitr",
-        "image": "./assets/webImages/eventsImages/event-2.jpg",
-        "description": "Mark the end of Ramadan with festivities, prayers, and a joyful community celebration.",
-        "date": "30/03/2025"
+        "name": "Birthday Party",
+        "image": "./assets/eleganto images/events/event3.jpg",
+        "description": "Celebrate a Birthday Party with laughter, music, and unforgettable memories! Gather with friends and enjoy food.",
+        "date": "ANYTIME"
     },
     {
         "id": 3,
         "name": "Eid al-Adha",
-        "image": "./assets/webImages/eventsImages/event-3.jpg",
+        "image": "./assets/eleganto images/events/event2.jpg",
         "description": "Join us in celebrating Eid al-Adha with traditional feasts and memorable family moments.",
         "date": "6/06/2025"
     }
